@@ -19,7 +19,18 @@ body{
 /*Header*/
 
 header{
-    background-color: blue;
+    background-color: #fff;
+    padding: 0 1rem;
+    position: fixed;
+    z-index: 99;
+    width: 100%;
+    box-shadow: 0 2px 2px #000;
+}
+
+h1{
+    font-family: 'Lato', sans-serif;
+    
+
 }
 
 /*main content*/

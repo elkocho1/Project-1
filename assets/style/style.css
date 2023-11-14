@@ -284,6 +284,25 @@ main{
     margin-top: 20px;
    }
 
+   /*Section Page*/
+
+   /*Video Section*/
+
+   #video-section{
+    text-align: center;
+    padding: 20px;
+   }
+
+   #video-section h2{
+    color: #8FAF69;
+    margin-bottom: 15px;
+   }
+
+   #video-section video{
+    max-width: 100%;
+    height: auto;
+   }
+
    
 
 

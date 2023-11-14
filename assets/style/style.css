@@ -33,7 +33,12 @@ header{
 h1{
     font-family: 'Lato', sans-serif;
     text-transform: uppercase;
-    letter-spacing: 3px; 
+    letter-spacing: 2px; 
+}
+
+#logo{
+    font-size: 150%;
+    margin: 0 0.5rem;
 }
 
 header a {
@@ -83,7 +88,7 @@ nav{
 main{
     background-color: brown;
     flex: 1 0 auto;
-    margin-top: 76px;
+    margin-top: 42px;
 }
 
 
@@ -98,12 +103,17 @@ footer{
 @media screen and (min-width:769px) {
 
     /*header*/
+    #logo{
+        font-size: 200%;
+
+    }
+
     nav{
         display: block;
         position: relative;
         box-shadow: none;
         width: fit-content;
-        padding: 1rem;
+        padding: 0 1rem;
     }
 
     #nav-bar{
@@ -116,6 +126,11 @@ footer{
 
     .nav-toggle-label{
         display: none;
+    }
+
+    /*main*/
+    main{
+        margin-top: 55px;
     }
     
 }

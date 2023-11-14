@@ -173,7 +173,7 @@ main{
    }
 
    .service{
-    margin-bottom: 20px;
+    margin-bottom: 25px;
    }
 
    .service img {
@@ -182,6 +182,12 @@ main{
     margin-bottom: 10px;
    }
 
+   .service h3 {
+    margin-bottom: 10px;
+   }
+
+   
+
    .service-button {
     text-decoration: none;
     padding: 15px 30px;
@@ -189,7 +195,7 @@ main{
     text-transform: uppercase;
     color: #fff;
     border-radius: 5px;
-
+    display: inline-block;
    }
 
 /*footer*/
@@ -265,6 +271,33 @@ main{
     .intro-text p{
         font-size: 20px;
     }
+
+    /*Service Section*/
+    #services{
+        display: flex;
+        justify-content: space-between;
+        flex-wrap: wrap;
+        align-items: center;
+    }
+
+    .service{
+        width: 32%;  
+    }
+    .service h3{
+        font-size: 150%;
+    }
+    .service p{
+        font-size: 20px;
+    }
+
+    .service-button{
+        margin: auto;
+        font-size: large;
+        padding: 20px 40px;
+        margin-top: 30px;
+    }
+    
+
     
 }
 
@@ -287,5 +320,8 @@ main{
     #introduction{
         padding: 60px;
     }
+
+    /*Service Section*/
+
 
 }

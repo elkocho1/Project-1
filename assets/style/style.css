@@ -38,6 +38,22 @@ header a {
     color: inherit;
 }
 
+#nav-bar{
+    font-size: 125%;
+    letter-spacing: 4px;
+    list-style-type: none;
+}
+
+#nav-bar > li{
+    margin-bottom: 1em;
+}
+
+
+.active-nav{
+    border-bottom: 1px solid #000;
+}
+
+
 /*main content*/
 
 main{

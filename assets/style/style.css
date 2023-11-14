@@ -282,6 +282,7 @@ main{
 
     .service{
         width: 32%;  
+        
     }
     .service h3{
         font-size: 150%;
@@ -323,5 +324,9 @@ main{
 
     /*Service Section*/
 
-
+    .service-button:hover{
+        background-color: #fff;
+        color: #8FAF69;
+        border: 2px solid #8FAF69;
+    }
 }

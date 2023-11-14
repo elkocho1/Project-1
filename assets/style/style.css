@@ -464,4 +464,11 @@ main{
         color: #8FAF69;
         border: 2px solid #8FAF69;
     }
+
+    /*newsletter section*/
+    #newsletter button:hover {
+        background-color: #fff;
+        color: #8FAF69;
+        border: 2px solid #8FAF69;
+    }
 }

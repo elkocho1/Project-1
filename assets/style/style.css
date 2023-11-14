@@ -25,6 +25,9 @@ header{
     z-index: 99;
     width: 100%;
     box-shadow: 0 2px 2px #000;
+    display: flex;
+    justify-content: space-between;
+    align-items: baseline;
 }
 
 h1{
@@ -36,6 +39,16 @@ h1{
 header a {
     text-decoration: none;
     color: inherit;
+    
+}
+
+/*Nav bar*/
+
+nav{
+    padding: 0 1rem;
+    box-shadow: 0 2px 2px #000;
+    display: none;
+    top: 100%;
 }
 
 #nav-bar{
@@ -48,6 +61,17 @@ header a {
     margin-bottom: 1em;
 }
 
+#nav-toggle:checked~nav{
+    display: block;
+}
+
+#nav-toggle{
+    display: none;
+}
+
+.nav-toggle-label{
+    font-size: 2rem;
+}
 
 .active-nav{
     border-bottom: 1px solid #000;

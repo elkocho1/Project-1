@@ -279,6 +279,13 @@ main{
     cursor: pointer;
    }
 
+   #success-message {
+    color: #8FAF69;
+    margin-top: 20px;
+   }
+
+   
+
 
 /*footer*/
 

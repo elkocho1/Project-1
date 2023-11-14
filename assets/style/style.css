@@ -92,3 +92,30 @@ main{
 footer{
     background-color: green;
 }
+
+
+/*media screen sizes for tablets 769px*/
+@media screen and (min-width:769px) {
+
+    /*header*/
+    nav{
+        display: block;
+        position: relative;
+        box-shadow: none;
+        width: fit-content;
+        padding: 1rem;
+    }
+
+    #nav-bar{
+        display: flex;
+    }
+
+    #nav-bar >li {
+        padding-left: 1rem;
+    }
+
+    .nav-toggle-label{
+        display: none;
+    }
+    
+}

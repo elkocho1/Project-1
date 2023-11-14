@@ -28,6 +28,7 @@ header{
     display: flex;
     justify-content: space-between;
     align-items: baseline;
+    
 }
 
 h1{
@@ -99,34 +100,56 @@ main{
 
 /*footer*/
 
-footer{
-    background-color: green;
+#social-icons{
+    display: flex;
+    justify-content: space-evenly;
+    list-style-type: none;
+    text-align: center;
+    padding: 20px 0;
 }
+
+#social-icons i{
+    font-size: 160%;
+    padding: 5%;
+    color: #000;
+}
+
 
 
 /*media screen sizes for tablets 769px*/
 @media screen and (min-width:769px) {
 
     /*header*/
+    header{
+        flex-direction: column;
+        align-items: center;
+    }
+
     #logo{
         font-size: 200%;
-
+        margin-bottom: 1rem;
+        margin-top: 1rem;
     }
 
     nav{
         display: block;
         position: relative;
         box-shadow: none;
-        width: fit-content;
+        order: 1;
+        width: 100%;
         padding: 0 1rem;
+        display: flex;
+        justify-content: center;
     }
 
     #nav-bar{
         display: flex;
+        padding: 0;
+        
     }
 
     #nav-bar >li {
-        padding-left: 1rem;
+        padding: 0 1rem;
     }
 
     .nav-toggle-label{

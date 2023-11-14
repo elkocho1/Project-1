@@ -136,6 +136,15 @@ main{
     transform: translate(-50%, -50%);;
 }
 
+#hero-text > h2,
+#hero-text > h3 {
+    margin-bottom: 1rem;
+}
+
+#hero-text > h3 {
+    padding: 0 0.5rem;
+}
+
 
 /*footer*/
 

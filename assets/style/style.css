@@ -148,6 +148,23 @@ main{
     border-radius: 5px;
     }
 
+    /*Intro Section*/
+   #introduction{
+    padding:20px ;
+    text-align: center;
+   } 
+
+   #introduction h2 {
+    color: #8FAF69;
+    margin-bottom: 15px;
+   }
+   .intro-text p{
+    color: #000;
+    line-height: 1.6;
+    margin: 10px;
+    font-size: 14px;
+   }
+
 /*footer*/
 
 #social-icons{

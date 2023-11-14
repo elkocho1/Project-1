@@ -205,6 +205,11 @@ main{
     text-align: center;
    }
 
+   #testimonials h2 {
+    color: #8FAF69;
+    margin-bottom: 15px;
+   }
+
    .testimonial{
     border: 1px solid #8FAF69;
     padding: 15px;

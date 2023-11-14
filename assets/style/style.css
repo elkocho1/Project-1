@@ -414,6 +414,26 @@ main{
         width: 100px;
         height: 100px;
     }
+
+    /*Newsletter Section*/
+    #newsletter h2{
+        font-size: 180%;
+    }
+
+    #newsletter form{
+        flex-direction: row;
+        width: 50%;
+        margin: auto;
+    }
+
+    #newsletter input[type="email"]{
+        width: 70%;
+    }
+
+    #newsletter button{
+        width: 30%;
+    }
+
     
 }
 

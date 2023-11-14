@@ -134,3 +134,12 @@ footer{
     }
     
 }
+
+/*media screen size for laptop > 992px */
+
+@media screen and (min-width: 992px) {
+    #nav-bar a:hover{
+        border-bottom: 1px solid #000;
+
+    }
+}

@@ -223,8 +223,17 @@ main{
 /*media screen size for laptop > 992px */
 
 @media screen and (min-width: 992px) {
+    /*navbar*/
     #nav-bar a:hover{
         border-bottom: 1px solid #8FAF69;
         color:#8FAF69;
     }
+
+    /*Hero Section*/
+
+    .hero-button:hover{
+        background-color: #fff;
+        color: #8FAF69;
+    }
+
 }

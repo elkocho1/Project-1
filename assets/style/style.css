@@ -227,6 +227,17 @@ main{
     main{
         margin-top: 113px;
     }
+
+    /*Intro Section*/
+    #introduction{
+        padding: 35px;
+    }
+    #introduction h2{
+        font-size: 180%;
+    }
+    .intro-text p{
+        font-size: 20px;
+    }
     
 }
 
@@ -244,6 +255,10 @@ main{
     .hero-button:hover{
         background-color: #fff;
         color: #8FAF69;
+    }
+
+    #introduction{
+        padding: 60px;
     }
 
 }

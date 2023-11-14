@@ -40,7 +40,7 @@ h1{
 
 h2, h3{
     font-family: 'Lato', sans-serif;
-    text-transform: capitalize;
+    text-transform: uppercase;
     letter-spacing: 2px; 
     color: #fff;  
 }

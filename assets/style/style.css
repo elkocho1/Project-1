@@ -453,6 +453,14 @@ main{
         width: 30%;
     }
 
+     /*Video Section*/
+     #video-section{
+        padding: 35px;
+     }
+
+     #video-section h2{
+        font-size: 180%;
+     }
     
 }
 

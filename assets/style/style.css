@@ -332,14 +332,25 @@ main{
    #text-content p{
     line-height: 1.6;
    }
+
+   
    
    .download-service-btn{
-    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #8FAF69;
+    color: #fff;
+    border-radius: 5px;
+    cursor: pointer;
     text-decoration: none;
-    text-transform: capitalize;
-    color: #8FAF69;
+    border: none;
+    outline: none;
+    transition: all 0.3s ease;
+    text-transform: uppercase;
+    font-weight: bold;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    border: 2px solid transparent;
     display: inline-block;
-    
+    margin-top: 15px;
    }
 
     /*Image Text Block Section 2*/
@@ -602,6 +613,14 @@ main{
      }
      #tex-content{
         width: 60%;
+     }
+
+     .download-service-btn:hover {
+        background-color: #fff;
+        color: #8FAF69;
+        transform: scale(1.05);
+        box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+        border: 2px solid #8FAF69;
      }
 
      /*Image Text Block Section 2*/

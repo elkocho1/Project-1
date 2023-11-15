@@ -372,6 +372,22 @@ main{
     width: 100%;
    }
 
+   /*Gallery Page*/
+
+   #photo{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+       }
+
+   #photos img {
+    flex: 0 0 32%;
+    max-width: 32%;
+   
+   }
+   
+
 /*footer*/
 
 #social-icons{

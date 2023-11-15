@@ -333,6 +333,14 @@ main{
     line-height: 1.6;
    }
    
+   .download-service-btn{
+    margin-top: 15px;
+    text-decoration: none;
+    text-transform: capitalize;
+    color: #8FAF69;
+    display: inline-block;
+    
+   }
 
 
 /*footer*/

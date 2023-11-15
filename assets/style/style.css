@@ -351,10 +351,6 @@ main{
     padding: 20px;
    }
 
-   .image-text-block .img-wrapper {
-    width: 100%;
-   }
-
    .image-text-block img{
     max-width: 100%;
     height: auto;
@@ -538,6 +534,26 @@ main{
      #tex-content{
         width: 50%;
      }
+
+     /*Image Text Block Section*/
+     #image-text-block-2 {
+        flex-direction: row-reverse;
+        text-align: left;
+        gap: 20px;
+        padding: 35px;
+     }
+     #image-text-block-2 img {
+        width: 50%;
+     }
+     
+     .image-text-block {
+        flex-direction: row;
+     }
+
+
+     
+
+     
     
 }
 
@@ -587,6 +603,16 @@ main{
      #tex-content{
         width: 60%;
      }
+
+     /*Image Text Block Section 2*/
+
+     #image-text-block-2{
+        margin: 10px 60px;
+        padding: 0 60px;
+    }
+    #image-text-block-2 img{
+        width: 40%;
+    }
 
 
 }

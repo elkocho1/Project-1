@@ -490,6 +490,24 @@ main{
      #video-section h2{
         font-size: 180%;
      }
+
+     /*Image Text Block Section*/
+
+     #image-text-block {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        text-align: left;
+        gap: 20px;
+        padding: 35px;
+     }
+
+     #image-text-block img {
+        width: 50%;
+     }
+     #tex-content{
+        width: 50%;
+     }
     
 }
 

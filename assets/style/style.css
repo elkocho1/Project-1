@@ -545,4 +545,18 @@ main{
         color: #8FAF69;
         border: 2px solid #8FAF69;
     }
+    /*Image Text Block Section*/
+    #image-text-block{
+        margin: 10px 60px;
+        padding: 0 60px;
+    }
+
+    #image-text-block img {
+        width: 40%;
+     }
+     #tex-content{
+        width: 60%;
+     }
+
+
 }

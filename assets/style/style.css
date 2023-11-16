@@ -583,10 +583,10 @@ main{
         
     }
     .service h3{
-        font-size: 150%;
+        font-size: 100%;
     }
     .service p{
-        font-size: 20px;
+        font-size: 15px;
     }
 
     .service-button{
@@ -738,6 +738,14 @@ main{
     }
 
     /*Service Section*/
+
+    .service h3{
+        font-size: 150%;
+    }
+
+    .service p{
+        font-size: 20px;
+    }
 
     .service-button:hover{
         background-color: #fff;

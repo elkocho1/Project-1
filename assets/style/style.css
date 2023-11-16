@@ -411,7 +411,7 @@ main{
     width: 100%;
    }
 
-   .contact-form, .contact-info{
+   .contact-form{
     margin: 10px;
     padding: 20px;
     border: 1px solid #8FAF69;
@@ -419,7 +419,7 @@ main{
     border-radius: 5px;
    }
 
-   .contact-form h2, .contact-info h2 {
+   .contact-form h2{
     color: #8FAF69;
    }
 
@@ -640,11 +640,12 @@ main{
         flex-direction: row;
      }
 
-
-     
-
-     
-    
+/*Contact Page*/
+     .contact-form{
+        width: 75%;
+        padding: 40px;
+     }
+  
 }
 
 /*media screen size for laptop > 992px */

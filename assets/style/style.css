@@ -449,8 +449,35 @@ main{
     cursor: pointer;
     margin-top: 10px;
    }
-   
+   /*Contact Information*/
 
+   #contact-info{
+    text-align: center;
+    padding: 40px;
+   }
+   #contact-info h2 {
+    color: #8FAF69;
+    margin-bottom: 15px;
+   }
+   #contact-info p{
+    margin-bottom: 30px;
+   }
+   .contact-detail{
+    margin-bottom: 30px;
+   }
+
+   .contact-icon{
+    font-size: 2em;
+    margin-bottom: 10px;
+    display: block;
+   }
+
+   .contact-detail h3{
+    margin: 5px 0;
+   }
+   .contact-detail p{
+    color: #8FAF69;
+   }
 /*footer*/
 
 #social-icons{

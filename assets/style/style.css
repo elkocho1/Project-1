@@ -331,27 +331,27 @@ main{
 
    /*Image and Text Block Section*/
 
-   #image-text-block{
+   .image-text-block{
     display: block;
     text-align: center;
     padding: 20px;
    }
 
-   #image-text-block img{
+   .image-text-block img{
     max-width: 100%;
     height: auto;
     margin-bottom: 15px;
    }
 
-   #text-content {
+   .text-content {
     margin-bottom: 20px;
    }
 
-   #text-content h3{
+   .text-content h3{
     margin-bottom: 10px;
    }
 
-   #text-content p{
+   .text-content p{
     line-height: 1.6;
    }
 
@@ -375,24 +375,6 @@ main{
     margin-top: 15px;
    }
 
-    /*Image Text Block Section 2*/
-   .image-text-block {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    text-align: center;
-    padding: 20px;
-   }
-
-   .image-text-block img{
-    max-width: 100%;
-    height: auto;
-    margin-bottom: 15px;
-   }
-
-   .image-text-block .text-content {
-    width: 100%;
-   }
 
    /*Gallery Page*/
 
@@ -658,7 +640,7 @@ main{
 
      /*Image Text Block Section*/
 
-     #image-text-block {
+     .image-text-block {
         display: flex;
         align-items: center;
         justify-content: center;
@@ -667,10 +649,10 @@ main{
         padding: 35px;
      }
 
-     #image-text-block img {
+     .image-text-block img {
         width: 50%;
      }
-     #tex-content{
+     .tex-content{
         width: 50%;
      }
 
@@ -768,15 +750,15 @@ main{
         border: 2px solid #8FAF69;
     }
     /*Image Text Block Section*/
-    #image-text-block{
+    .image-text-block{
         margin: 10px 60px;
         padding: 0 60px;
     }
 
-    #image-text-block img {
+    .image-text-block img {
         width: 40%;
      }
-     #tex-content{
+     .tex-content{
         width: 60%;
      }
 

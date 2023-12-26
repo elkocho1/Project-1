@@ -25,13 +25,15 @@
             <h1 id="logo">Siluetta Nutrition</h1>
         </a>
         <input type="checkbox" name="nav-toggle" id="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
         <nav>
             <ul id="nav-bar">
-                <li><a href="index.html" class="active-nav">Home</a></li>
-                <li><a href="service.html">Services</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" aria-label="link to homepage" class="active-nav">Home</a></li>
+                <li><a href="service.html" aria-label="link to service page">Services</a></li>
+                <li><a href="gallery.html" arial-label="link to gallery page">Gallery</a></li>
+                <li><a href="contact.html" aria-label="link to contact page">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -42,7 +44,7 @@
             <div id="hero-text">
                 <h2>We are health and nutrition experts.</h2>
                 <h3>We are here to help you become the healthiest version of yourself.</h3>
-                <a href="service.html" class="hero-button">Why choose us!</a>
+                <a href="service.html" aria-label="link to service page" class="hero-button">Why choose us!</a>
             </div>
         </section>
         <!--Intro Section-->
@@ -104,7 +106,6 @@
                 <input id="email" type="email" name="email" placeholder="Enter your email address" required>
                 <button type="submit">Subscribe</button>
             </form>
-            <div id="success-message" class="hidden">Thank you for subscribing!</div>
         </section>
     </main>
     <!--Footer-->

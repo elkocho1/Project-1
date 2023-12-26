@@ -21,17 +21,19 @@
 <body>
     <!--Header-->
     <header>
-        <a href="index.html">
+        <a href="index.html" aria-label="link to homepage">
             <h1 id="logo">Siluetta Nutrition</h1>
         </a>
         <input type="checkbox" name="nav-toggle" id="nav-toggle">
-        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <label for="nav-toggle" class="nav-toggle-label">
+            <i class="fa-solid fa-bars"></i>
+        </label>
         <nav>
             <ul id="nav-bar">
-                <li><a href="index.html">Home</a></li>
-                <li><a href="service.html" class="active-nav">Services</a></li>
-                <li><a href="gallery.html">Gallery</a></li>
-                <li><a href="contact.html">Contact</a></li>
+                <li><a href="index.html" aria-label="link to homepage">Home</a></li>
+                <li><a href="service.html" aria-label="link to service page" class="active-nav">Services</a></li>
+                <li><a href="gallery.html" aria-label="link to gallery">Gallery</a></li>
+                <li><a href="contact.html" aria-label="link to contact page">Contact</a></li>
             </ul>
         </nav>
     </header>
@@ -49,7 +51,9 @@
         <section class="image-text-block">
             <img src="assets/images/personalized-nutrition.png" alt="personalized nutrition">
             <div class="text-content">
-                <h3>personalized nutrition <i class="fa-solid fa-scale-balanced"></i></h3>
+                <h3>personalized nutrition
+                    <i class="fa-solid fa-scale-balanced"></i>
+                </h3>
                 <p>Embark on a transformative journey towards optimal health with our Personalized Nutritionist
                     Services. Our approach is simple yet profoundly effective: we tailor every aspect of your nutrition
                     to align with your unique physiological needs and wellness goals.</p><br>
@@ -58,8 +62,10 @@
                     medical condition, improve athletic performance, or simply enhance your overall well-being, our
                     personalized guidance is your gateway to a healthier, more vibrant life.</p>
                 <a href="https://www.eatingwell.com/article/291347/simple-30-day-weight-loss-meal-plan-1200-calories/"
-                    target="_blank" class="download-service-btn" aria-label="link to download free diet plan">free diet
-                    plan <i class="fa-solid fa-download"></i></a>
+                    target="_blank" class="download-service-btn" aria-label="link to download free diet plan">
+                    free diet plan
+                    <i class="fa-solid fa-download"></i>
+                </a>
             </div>
         </section>
         <!--Image with text blcok 2-->
@@ -109,7 +115,6 @@
                 <input id="email" type="email" name="email" placeholder="Enter your email address" required>
                 <button type="submit">Subscribe</button>
             </form>
-            <div id="success-message" class="hidden ">Thank you for subscribing!</div>
         </section>
     </main>
     <!--Footer-->

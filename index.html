@@ -1,12 +1,14 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--Meta tags for SEO-->
     <meta name="description"
         content="Siluetta. Unlock your health potential with tailored meal plans, expert dietary advice, and real-time tracking. Our team of certified nutritionists and dietitians are dedicated to guiding you towards a healthier lifestyle. Whether you're aiming for weight loss, managing a specific health condition, or simply seeking to improve your overall well-being, our science-based approach and supportive community are here to help.">
-    <meta name="keywords" content="tailored meal plans, expert dietary advice, real-time tracking, weight loss, Ireland, Dublin, sport, nutritionists">
+    <meta name="keywords"
+        content="tailored meal plans, expert dietary advice, real-time tracking, weight loss, Ireland, Dublin, sport, nutritionists">
     <!--Title-->
     <title>Siluetta Nutrition</title>
     <!--Stylesheet-->
@@ -14,112 +16,128 @@
     <!--Favicon-->
     <link rel="icon" type="image/x-icon" href="assets/favicon/favicon.ico">
 </head>
+
 <body>
-  
+
     <!--Header-->
-<header> 
-    <a href="index.html">
-        <h1 id="logo">Siluetta Nutrition</h1>
-    </a>
-    <input type="checkbox" name="nav-toggle" id="nav-toggle">
-    <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
-    <nav>
-        <ul id="nav-bar">
-            <li><a href="index.html" class="active-nav">Home</a></li>
-            <li><a href="service.html">Services</a></li>
-            <li><a href="gallery.html">Gallery</a></li>
-            <li><a href="contact.html">Contact</a></li>
+    <header>
+        <a href="index.html">
+            <h1 id="logo">Siluetta Nutrition</h1>
+        </a>
+        <input type="checkbox" name="nav-toggle" id="nav-toggle">
+        <label for="nav-toggle" class="nav-toggle-label"><i class="fa-solid fa-bars"></i></label>
+        <nav>
+            <ul id="nav-bar">
+                <li><a href="index.html" class="active-nav">Home</a></li>
+                <li><a href="service.html">Services</a></li>
+                <li><a href="gallery.html">Gallery</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+        </nav>
+
+
+    </header>
+
+    <!--Main Content-->
+    <main>
+        <!--hero banner-->
+        <section id="hero">
+            <div id="hero-text">
+                <h2>We are health and nutrition experts.</h2>
+                <h3>We are here to help you become the healthiest version of yourself.</h3>
+                <a href="service.html" class="hero-button">Why choose us!</a>
+            </div>
+        </section>
+        <!--Intro Section-->
+        <section id="introduction">
+            <h2>Who am I!</h2>
+            <div class="intro-text">
+                <p><em>Hello, I am Veronica, your dedicated guide to a healthier and more fulfilling lifestyle. With a
+                        passion for nutrition and a commitment to holistic health, I bring a wealth of knowledge and
+                        experience to help you achieve your nutritional goals.</em></p>
+                <p><em>My approach is centered around empowering you with the tools and knowledge necessary for
+                        long-lasting change. From personalized nutrition plans to effective exercise routines, I am here
+                        to support you on every step of your health journey. Let's work together to unlock your
+                        potential for optimal health and well-being.</em></p>
+            </div>
+        </section>
+        <!--Service Section-->
+        <section id="services">
+            <div class="service">
+                <img src="assets/images/personalized-nutrition.png" alt="personalized nutrition">
+                <h3>Personalized Nutrition</h3>
+                <p>Custom dietary plans tailored to your unique health needs and goals.</p>
+            </div>
+            <div class="service">
+                <img src="assets/images/fitness-training.png" alt="fitness training">
+                <h3>Fitness Training</h3>
+                <p>One-on-one workout sessions focusing on your specific fitness objectives..</p>
+            </div>
+            <div class="service">
+                <img src="assets/images/welness-coaching.png" alt="welness coaching">
+                <h3>Wellness Coaching</h3>
+                <p>Comprehensive guidance on lifestyle changes for overall well-being.</p>
+            </div>
+            <a href="service.html" class="service-button" aria-label="link to service page">More Details</a>
+        </section>
+        <!--Testimonial Section-->
+        <section id="testimonials">
+            <h2>Our Success Stories</h2>
+            <div class="testimonial-container">
+                <div class="testimonial">
+                    <img src="assets/images/John-Smith.png" alt="portrait testimonia john smith">
+                    <p>"This health coaching service has transformed my life! I have never felt better."</p>
+                    <h3>John Smith</h3>
+                </div>
+                <div class="testimonial">
+                    <img src="assets/images/Sarah-Connor.png" alt="portrait testimonial sarah connor">
+                    <p>"The personalized approach and detailed plans were exactly what I needed to reach my health
+                        goals."</p>
+                    <h3>Sarah Connor</h3>
+                </div>
+            </div>
+            <a href="gallery.html" class="service-button" aria-label="link to gallery page">view gallery</a>
+        </section>
+        <!--Newsletter Sign Up-->
+        <section id="newsletter">
+            <h2>get healthy news every week!</h2>
+            <p>Sign up for our newsletter to receive the latest health tips and updates.</p>
+            <form action="http://www.example.com/target-page" method="post">
+                <label for="email" class="hidden">Newsletter</label>
+                <input id="email" type="email" name="email" placeholder="Enter your email address" required>
+                <button type="submit">Subscribe</button>
+            </form>
+            <div id="success-message" class="hidden">Thank you for subscribing!</div>
+        </section>
+
+    </main>
+
+    <!--Footer-->
+    <footer>
+
+        <ul id="social-icons">
+            <li><a href="https://www.facebook.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Facebook page (opens in a new tag)"><i class="fa-brands fa-facebook"></i></a>
+            </li>
+            <li><a href="https://www.youtube.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Youtube page (opens in a new tag)"><i class="fa-brands fa-youtube"></i></a>
+            </li>
+            <li><a href="https://www.instagram.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Instagram page (opens in a new tag)"><i
+                        class="fa-brands fa-instagram"></i></a></li>
+            <li><a href="https://www.twitter.com" target="_blank" rel="noopener"
+                    aria-label="Visit our Twitter page (opens in a new tag)"><i class="fa-brands fa-twitter"></i></a>
+            </li>
         </ul>
-    </nav>
 
-
-</header>
-
-<!--Main Content-->
-<main>
-    <!--hero banner-->
-    <section id="hero">
-        <div id="hero-text">
-            <h2>We are health and nutrition experts.</h2>
-            <h3>We are here to help you become the healthiest version of yourself.</h3>
-            <a href="service.html" class="hero-button">Why choose us!</a>
-        </div>
-    </section>
-    <!--Intro Section-->
-    <section id="introduction">
-        <h2>Who am I!</h2>
-        <div class="intro-text">
-            <p><em>Hello, I am Veronica, your dedicated guide to a healthier and more fulfilling lifestyle. With a passion for nutrition and a commitment to holistic health, I bring a wealth of knowledge and experience to help you achieve your nutritional goals.</em></p>
-            <p><em>My approach is centered around empowering you with the tools and knowledge necessary for long-lasting change. From personalized nutrition plans to effective exercise routines, I am here to support you on every step of your health journey. Let's work together to unlock your potential for optimal health and well-being.</em></p>
-        </div>
-    </section>
-    <!--Service Section-->
-    <section id="services">
-        <div class="service">
-            <img src="assets/images/personalized-nutrition.png" alt="personalized nutrition">
-            <h3>Personalized Nutrition</h3>
-            <p>Custom dietary plans tailored to your unique health needs and goals.</p>
-        </div>
-        <div class="service">
-            <img src="assets/images/fitness-training.png" alt="fitness training">
-            <h3>Fitness Training</h3>
-            <p>One-on-one workout sessions focusing on your specific fitness objectives..</p>
-        </div>
-        <div class="service">
-            <img src="assets/images/welness-coaching.png" alt="welness coaching">
-            <h3>Wellness Coaching</h3>
-            <p>Comprehensive guidance on lifestyle changes for overall well-being.</p>
-        </div>
-        <a href="service.html" class="service-button" aria-label="link to service page">More Details</a>
-    </section>
-    <!--Testimonial Section-->
-    <section id="testimonials">
-        <h2>Our Success Stories</h2>
-        <div class="testimonial-container">
-            <div class="testimonial">
-                <img src="assets/images/John-Smith.png" alt="portrait testimonia john smith">
-                <p>"This health coaching service has transformed my life! I have never felt better."</p>
-                <h3>John Smith</h3>
-            </div>
-            <div class="testimonial">
-                <img src="assets/images/Sarah-Connor.png" alt="portrait testimonial sarah connor">
-                <p>"The personalized approach and detailed plans were exactly what I needed to reach my health goals."</p>
-                <h3>Sarah Connor</h3>
-            </div>
-        </div>
-        <a href="gallery.html" class="service-button" aria-label="link to gallery page">view gallery</a>
-    </section>
-    <!--Newsletter Sign Up-->
-    <section id="newsletter">
-        <h2>get healthy news every week!</h2>
-        <p>Sign up for our newsletter to receive the latest health tips and updates.</p>
-        <form action="http://www.example.com/target-page" method="post">
-            <label for="email" class="hidden">Newsletter</label>
-            <input type="email" name="email" placeholder="Enter your email address" required>
-            <button type="submit">Subscribe</button>
-        </form>
-        <div id="success-message" class="hidden">Thank you for subscribing!</div>
-    </section>
-
-</main>
-
-<!--Footer-->
-<footer>
-    
-    <ul id="social-icons">
-        <li><a href="https://www.facebook.com" target="_blank" rel="noopener" aria-label="Visit our Facebook page (opens in a new tag)"><i class="fa-brands fa-facebook"></i></a></li>
-        <li><a href="https://www.youtube.com" target="_blank" rel="noopener" aria-label="Visit our Youtube page (opens in a new tag)"><i class="fa-brands fa-youtube"></i></a></li>
-        <li><a href="https://www.instagram.com" target="_blank" rel="noopener" aria-label="Visit our Instagram page (opens in a new tag)"><i class="fa-brands fa-instagram"></i></a></li>
-        <li><a href="https://www.twitter.com" target="_blank" rel="noopener" aria-label="Visit our Twitter page (opens in a new tag)"><i class="fa-brands fa-twitter"></i></a></li>
-    </ul>
-
-</footer>
+    </footer>
 
 
 
 
-<!--Fontawesome-->
-<script src="https://kit.fontawesome.com/daf7bf8375.js" crossorigin="anonymous"></script>
+    <!--Fontawesome-->
+    <script src="https://kit.fontawesome.com/daf7bf8375.js" crossorigin="anonymous"></script>
 
 </body>
+
 </html>

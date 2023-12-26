@@ -494,6 +494,11 @@ main {
 }
 
 
+textarea {
+    resize: none;
+}
+
+
 .contact-form button {
     text-decoration: none;
     padding: 10px 20px;
